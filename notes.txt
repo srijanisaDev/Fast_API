@@ -1,0 +1,9 @@
+CRUD ---> CREATE , RETRIEVE , UPDATE , DELETE
+
+profile
+HTTP ---> verb ---> POST(RETRIEVE)
+HTTP ---> verb ---> GET(CREATE)
+HTTP ---> verb ---> PUT(UPDATE)
+HTTP ---> verb ---> DELETE(DELETE)
+
+Path Params --> Path parameters are dynamic segments of a URL path used to identify a specific resource
