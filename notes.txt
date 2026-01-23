@@ -1,3 +1,7 @@
+## to run : uvicorn main:app --reload .....this reload updates the code in real time 
+
+http://127.0.0.1:8000/sort?sort_by=height&order=desc
+
 CRUD ---> CREATE , RETRIEVE , UPDATE , DELETE
 
 profile
@@ -6,4 +10,28 @@ HTTP ---> verb ---> GET(CREATE)
 HTTP ---> verb ---> PUT(UPDATE)
 HTTP ---> verb ---> DELETE(DELETE)
 
-Path Params --> Path parameters are dynamic segments of a URL path used to identify a specific resource
+Path Params --> Path parameters are dynamic segments of a URL path used to\
+                identify a specific resource
+
+path function ---> The path() function in FastAPI is used to provide metadata ,
+                   validation,rules and documentation hints for path paramaters in your api.
+example:
+Title
+Description
+Example 
+ge,gt,le,lt
+Min_length
+max_length
+regex
+
+
+HTTP status codes are 3 digit numbers returned by a web server like fastapi to indicate the result 
+of a client's request from a browser or api consumer.
+
+Query parameter:
+Query parameters are optional key-value pairs appended to the end of a URL used to pass additional data to the server in an HTTP request .
+They are typically employed for operations like filtering , sorting , searching , and pagination,
+without altering the endpoint path itself.
+
+Query() is a utility function provided by FastAPI to declare , validate and document query parameters in your 
+api endpoints.
